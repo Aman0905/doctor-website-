@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: normal;
     font-style: normal;
     
@@ -401,4 +401,196 @@ label {
   color: #919191;
   font-weight: 400;
 }
-        
+      
+      #colorlib-footer {
+  padding: 7em 0;
+  clear: both; }
+  #colorlib-footer {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #fff !important;
+  background: #314355; }
+  #colorlib-footer p {
+    color: rgba(255, 255, 255, 0.7); }
+  #colorlib-footer .colorlib-footer-links {
+    padding: 0;
+    margin: 0; }
+    #colorlib-footer .colorlib-footer-links li {
+      padding: 0;
+      margin: 0 0 10px 0;
+      list-style: none; }
+      #colorlib-footer .colorlib-footer-links li a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none; }
+        #colorlib-footer .colorlib-footer-links li a i {
+          color: #3c97e8;
+          padding-right: 8px; }
+        #colorlib-footer .colorlib-footer-links li a:hover {
+          text-decoration: none; }
+  #colorlib-footer .colorlib-widget {
+    margin-bottom: 30px; }
+    @media screen and (max-width: 768px) {
+      #colorlib-footer .colorlib-widget {
+        text-align: left; } }
+    #colorlib-footer .colorlib-widget h3 {
+      margin-bottom: 40px;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-family: "Poppins", Arial, sans-serif;
+      color: #fff; }
+  #colorlib-footer .form-group input[type="name"],
+  #colorlib-footer .form-group input[type="text"],
+  #colorlib-footer .form-group input[type="email"],
+  #colorlib-footer .form-group textarea {
+    font-size: 14px; }
+    #colorlib-footer .form-group input[type="name"]::-webkit-input-placeholder,
+    #colorlib-footer .form-group input[type="text"]::-webkit-input-placeholder,
+    #colorlib-footer .form-group input[type="email"]::-webkit-input-placeholder,
+    #colorlib-footer .form-group textarea::-webkit-input-placeholder {
+      color: rgba(255, 255, 255, 0.2); }
+    #colorlib-footer .form-group input[type="name"]:-moz-placeholder,
+    #colorlib-footer .form-group input[type="text"]:-moz-placeholder,
+    #colorlib-footer .form-group input[type="email"]:-moz-placeholder,
+    #colorlib-footer .form-group textarea:-moz-placeholder {
+      /* Firefox 18- */
+      color: rgba(255, 255, 255, 0.2); }
+    #colorlib-footer .form-group input[type="name"]::-moz-placeholder,
+    #colorlib-footer .form-group input[type="text"]::-moz-placeholder,
+    #colorlib-footer .form-group input[type="email"]::-moz-placeholder,
+    #colorlib-footer .form-group textarea::-moz-placeholder {
+      /* Firefox 19+ */
+      color: rgba(255, 255, 255, 0.2); }
+    #colorlib-footer .form-group input[type="name"]:-ms-input-placeholder,
+    #colorlib-footer .form-group input[type="text"]:-ms-input-placeholder,
+    #colorlib-footer .form-group input[type="email"]:-ms-input-placeholder,
+    #colorlib-footer .form-group textarea:-ms-input-placeholder {
+      color: rgba(255, 255, 255, 0.2); }
+  #colorlib-footer .form-group input {
+    background: rgba(0, 0, 0, 0.5);
+    background: transparent;
+    border: none;
+    background: rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  #colorlib-footer .form-group textarea {
+    background: rgba(0, 0, 0, 0.5);
+    background: transparent;
+    border: none;
+    background: rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  #colorlib-footer .form-group #btn-submit {
+    background: #3c97e8;
+    color: #fff; }
+  #colorlib-footer .copyright {
+    background: #2b3b4b;
+    padding: 2em; }
+    #colorlib-footer .copyright .block {
+      display: block; }
+      #colorlib-footer .copyright .block a {
+        color: rgba(255, 255, 255, 0.5); }
+    #colorlib-footer .copyright p {
+      margin-bottom: 0; }
+
+      #colorlib-intro {
+  position: relative;
+  clear: both;
+  z-index: 1; }  
+  .intro {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  width: 100%;
+  float: left;
+  margin-top: -8em; }
+
+.intro-grid {
+  padding: 2.5em;
+  color: rgba(255, 255, 255, 0.8) !important;
+  overflow: hidden;
+  position: relative;
+  width: 25%;
+  display: inline-block;
+  background: #3c97e8;
+  border-right: 1px solid rgba(0, 0, 0, 0.1); }
+  @media screen and (max-width: 768px) {
+    .intro-grid {
+      width: 50%; }
+      .intro-grid:last-child {
+        border-top: 1px solid rgba(0, 0, 0, 0.1); }
+      .intro-grid:first-child {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1); } }
+  .intro-grid:last-child {
+    border-right: none; }
+  @media screen and (max-width: 480px) {
+    .intro-grid {
+      width: 100%;
+      border: none; } }
+  .intro-grid .icon {
+    position: absolute;
+    bottom: 0;
+    right: -20px; }
+    .intro-grid .icon i {
+      font-size: 120px;
+      color: rgba(255, 255, 255, 0.1); }
+  .intro-grid a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px; }
+    .intro-grid a .btn {
+      border: 2px solid #fff !important; }
+  .intro-grid h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase; }
+    #colorlib-appointment {
+  background: #00b7ea;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -o-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+  background: linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43DDE6', endColorstr='#9870FC',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+#colorlib-appointment {
+  padding: 5em 0;
+  clear: both; }
+  #colorlib-appointment h2 {
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 700; }
+  #colorlib-appointment p {
+    margin-bottom: 0; }
+  #colorlib-appointment .btn-cta {
+    border: 2px solid #fff !important;
+    color: #fff !important; }
+    #colorlib-appointment .btn-cta:hover {
+      background: #69cb6a !important;
+      border: 2px solid #69cb6a !important;
+      -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
+      -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
+      box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important; }
+  #colorlib-appointment .line-block {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px; }
+    @media screen and (max-width: 768px) {
+      #colorlib-appointment .line-block {
+        margin-bottom: 20px;
+        display: block; } }

@@ -1,0 +1,87 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #666666;
+  background: #fff; }
+
+  .colorlib-heading {
+  margin-bottom: 5em; }
+  .colorlib-heading h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #000;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700; }
+    @media screen and (max-width: 768px) {
+      .colorlib-heading h2 {
+        font-size: 28px; } }
+        .colorlib-heading h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #000;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+.form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 54px;
+  font-size: 14px;
+  font-weight: 400; }
+  .form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #3c97e8; }
+#colorlib-appointment {
+  background: #00b7ea;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -o-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+  background: linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43DDE6', endColorstr='#9870FC',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+#colorlib-appointment {
+  padding: 5em 0;
+  clear: both; }
+  #colorlib-appointment h2 {
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 700; }
+  #colorlib-appointment p {
+    margin-bottom: 0; }
+  #colorlib-appointment .btn-cta {
+    border: 2px solid #fff !important;
+    color: #fff !important; }
+    #colorlib-appointment .btn-cta:hover {
+      background: #69cb6a !important;
+      border: 2px solid #69cb6a !important;
+      -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
+      -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
+      box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important; }
+  #colorlib-appointment .line-block {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px; }
+    @media screen and (max-width: 768px) {
+      #colorlib-appointment .line-block {
+        margin-bottom: 20px;
+        display: block; } }
